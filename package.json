@@ -1,0 +1,26 @@
+{
+  "name": "tft-augment-tree",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "check": "biome check --write",
+    "dev": "rsbuild dev --open",
+    "format": "biome format --write",
+    "preview": "rsbuild preview",
+    "svelte-check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "dependencies": {
+    "@dagrejs/dagre": "^3.0.0",
+    "@xyflow/svelte": "^1.5.0",
+    "svelte": "^5.46.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.8",
+    "@rsbuild/core": "^1.7.1",
+    "@rsbuild/plugin-svelte": "^1.0.11",
+    "svelte-check": "^4.3.5",
+    "typescript": "^5.9.3"
+  }
+}
